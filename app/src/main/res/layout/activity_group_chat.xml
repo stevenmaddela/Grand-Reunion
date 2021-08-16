@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GroupChatActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/three_menu_options"
+        android:layout_width="match_parent"
+        android:layout_height="50sp">
+
+        <TextView
+            android:id="@+id/hubMenuOption"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#f28c38"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:inputType="none"
+            android:text="Hub"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+        android:id="@+id/fundMenuOption"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="#f28429"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:inputType="none"
+        android:text="Fund"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/eventsMenuOption"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#F17E1E"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:inputType="none"
+            android:text="Events"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/membersMenuOption"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#F07712"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:inputType="none"
+            android:text="Members"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/mainPager"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/three_menu_options"
+        android:layout_height="match_parent">
+    </androidx.viewpager.widget.ViewPager>
+
+</RelativeLayout>

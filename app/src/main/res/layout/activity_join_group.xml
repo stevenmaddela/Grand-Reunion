@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JoinGroupActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/joinBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_back_arrow" />
+    <TextView
+        android:id="@+id/enterCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/enterCodeWelcome"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+    <EditText
+        android:id="@+id/codeViewn1"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="@color/blue"
+        android:ems="10"
+        android:textCursorDrawable="@null"
+        android:textColor="@color/blue"
+        android:maxLength="1"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterCode" />
+
+    <EditText
+        android:id="@+id/codeViewn2"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="@color/blue"
+        android:ems="10"
+        android:textColor="@color/blue"
+        android:maxLength="1"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textCursorDrawable="@null"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="@+id/codeViewn1"
+        app:layout_constraintTop_toBottomOf="@+id/enterCode" />
+
+    <EditText
+        android:id="@+id/codeViewn3"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="@color/blue"
+        android:ems="10"
+        android:textColor="@color/blue"
+        android:maxLength="1"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textCursorDrawable="@null"
+
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toEndOf="@+id/codeViewn2"
+        app:layout_constraintTop_toBottomOf="@+id/enterCode" />
+
+    <EditText
+        android:id="@+id/codeViewn4"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="@color/blue"
+        android:ems="10"
+        android:textColor="@color/blue"
+        android:maxLength="1"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textCursorDrawable="@null"
+
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toEndOf="@+id/codeViewn3"
+        app:layout_constraintTop_toBottomOf="@+id/enterCode" />
+
+    <EditText
+        android:id="@+id/codeViewn5"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:textColor="@color/blue"
+        android:maxLength="1"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textCursorDrawable="@null"
+
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toEndOf="@+id/codeViewn4"
+        app:layout_constraintTop_toBottomOf="@+id/enterCode" />
+
+    <EditText
+        android:id="@+id/codeViewn6"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="@color/blue"
+        android:ems="10"
+        android:textColor="@color/blue"
+        android:maxLength="1"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textCursorDrawable="@null"
+
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toEndOf="@+id/codeViewn5"
+        app:layout_constraintTop_toBottomOf="@+id/enterCode" />
+
+    <EditText
+        android:id="@+id/codeViewn7"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="@color/blue"
+        android:ems="10"
+        android:textColor="@color/blue"
+        android:maxLength="1"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textCursorDrawable="@null"
+
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toEndOf="@+id/codeViewn6"
+        app:layout_constraintTop_toBottomOf="@+id/enterCode" />
+
+
+    <Button
+        android:id="@+id/joinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/codeViewn4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

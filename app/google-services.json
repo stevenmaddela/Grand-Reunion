@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "385547410364",
+    "firebase_url": "https://grand-reunion-1577565458607.firebaseio.com",
+    "project_id": "grand-reunion-1577565458607",
+    "storage_bucket": "grand-reunion-1577565458607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385547410364:android:32e8210c60248b380969b9",
+        "android_client_info": {
+          "package_name": "com.syfn.grandreunion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385547410364-h89vjkana8imsodbp58f1uh9g4fuuoqi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.syfn.grandreunion",
+            "certificate_hash": "728248571e1730af7c933f89576e96736c0cd3bb"
+          }
+        },
+        {
+          "client_id": "385547410364-halaoj68voon1sg0egn2dvjsnerpucc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBePODwpc39sDWHiA9VaLA15wI_O6_isus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385547410364-halaoj68voon1sg0egn2dvjsnerpucc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

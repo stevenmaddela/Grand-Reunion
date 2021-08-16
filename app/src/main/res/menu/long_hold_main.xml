@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/longHoldShare"
+        android:title=""
+        android:icon="@drawable/ic_share_black_24dp"
+        android:iconTint="@color/black"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+    <item
+        android:id="@+id/longHoldTrash"
+        android:title=""
+        android:icon="@drawable/ic_trash"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+
+</menu>

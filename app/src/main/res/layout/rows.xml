@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowText"
+    android:textSize="20sp"
+    android:gravity="center_vertical"
+    android:paddingLeft="25sp"
+    android:background="@drawable/rowstexture"
+    android:backgroundTint="@color/white"
+    android:fontFamily="sans-serif-condensed-black"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+
+</TextView>
