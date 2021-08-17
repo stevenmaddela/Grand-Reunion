@@ -1,6 +1,6 @@
 # Grand Reunion
 
-A Java reunion planning application published on the App Store and Google Play Store.
+A Java reunion planning application published on the Google Play Store.
 
-## App Store Screenshots
-<img src="https://user-images.githubusercontent.com/70993825/129511349-3925b96c-3a9b-4617-b568-efac07106431.JPG" alt="alt text" width="150" height="300"> <img src="https://user-images.githubusercontent.com/70993825/129511394-df93e966-389a-40cc-8fc7-f6a6852b032f.JPG" alt="alt text" width="150" height="300"> <img src="https://user-images.githubusercontent.com/70993825/129511418-607975ed-74d7-4604-850b-44cc6482cb6b.JPG" alt="alt text" width="150" height="300"> <img src="https://user-images.githubusercontent.com/70993825/129511438-745aee09-fbd4-4702-a160-a6ff08d5ca07.JPG" alt="alt text" width="150" height="300"> <img src="https://user-images.githubusercontent.com/70993825/129511454-209af9af-0190-4c1a-8433-082b3d4a1b3a.JPG" alt="alt text" width="150" height="300"> <img src="https://user-images.githubusercontent.com/70993825/129511467-880f9366-8c33-45f1-9301-e07704e82883.JPG" alt="alt text" width="150" height="300">
+## Play Store Screenshots
+<img src="https://user-images.githubusercontent.com/70993825/129651342-0607e81d-8c67-4118-821c-9e164bbdef41.png" alt="alt text" width="170" height="300"> <img src="https://user-images.githubusercontent.com/70993825/129651409-dc9aac88-ffdd-4a6a-930a-3f6c799d2dcb.png" alt="alt text" width="170" height="300"> <img src="https://user-images.githubusercontent.com/70993825/129651484-c5918001-0d80-4e3d-8849-40a537c58928.png" alt="alt text" width="170" height="300"> <img src="https://user-images.githubusercontent.com/70993825/129651511-9a5d37de-04a5-4952-b11f-cf9782c4586c.png" alt="alt text" width="170" height="300"> <img src="https://user-images.githubusercontent.com/70993825/129651556-23be290d-fbe3-41cc-926f-7db214c741ae.png" alt="alt text" width="170" height="300"> 
