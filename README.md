@@ -1,5 +1,5 @@
 # Grand Reunion
-
+<img src="https://user-images.githubusercontent.com/70993825/129690306-431459c6-ed99-45be-83d8-0493f5797b21.png" alt="alt text" width="500" height="250">
 A Java reunion planning application published on the Google Play Store.
 
 ## Play Store Screenshots
